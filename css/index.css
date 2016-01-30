@@ -1,0 +1,64 @@
+/*Edit visited links in nav bar to not change color */
+/*Add drop down to portfolio for works and testimonials*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 20px;
+}
+
+li a {
+    padding: 14px 20px;
+}
+
+.navlist a:hover {
+    background-color: #F11;
+    color: white;
+     
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navigation {
+       background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*left: 50%;
+    margin-left: -45%; */
+    height: 10%;
+    text-align: center;
+}
+
+
+
+/* STOP OVERFLOW */
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+    /*background-color:dimgray!important;*/
+}
+
+
+
+
+
+
