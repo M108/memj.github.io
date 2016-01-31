@@ -6,6 +6,10 @@ body, html {
     padding: 0;
 }
 
+html {
+    overflow: visible !important;
+}
+
 .navlist {
     display: inline;
     text-decoration: none;
@@ -55,9 +59,14 @@ body {
     height: 100%;
     overflow: auto;
     /*background-color:dimgray!important;*/
+    
 }
 
+/*
+body::-webkit-scrollbar { 
+    width: 0 !important; }
 
+*/
 
 
 
