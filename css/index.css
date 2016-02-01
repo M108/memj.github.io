@@ -1,5 +1,5 @@
 /*Edit visited links in nav bar to not change color */
-/*Add drop down to portfolio for works and testimonials*/
+/*Add drop down to portfolio for works and testimonials also, skills*/
 
 body, html {
     margin: 0;
@@ -23,7 +23,6 @@ li a {
 }
 
 .navlist a:hover {
-    background-color: #F11;
     color: white;
      
 }
@@ -41,8 +40,6 @@ li a {
     position: fixed;
     top: 0;
     width: 100%;
-    /*left: 50%;
-    margin-left: -45%; */
     height: 10%;
     text-align: center;
 }
@@ -59,14 +56,9 @@ body {
     height: 100%;
     overflow: auto;
     /*background-color:dimgray!important;*/
-    
 }
 
-/*
-body::-webkit-scrollbar { 
-    width: 0 !important; }
 
-*/
 
 
 
