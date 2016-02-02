@@ -75,7 +75,20 @@ h1, h2, h3 {
     margin-right: 2% !important;
 }
 
-.bodyCopy {
+.selfie {
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    display: block;
+    margin: auto;
+}
+
+.aside-para {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.col-md-4 {
+    background-color: gainsboro;
 }
 
 
