@@ -1,6 +1,8 @@
 /*Edit visited links in nav bar to not change color */
 /*Add drop down to portfolio for works and testimonials also, skills*/
-
+====================
+Test File
+====================
 body, html {
     margin: 0;
     padding: 0;
@@ -43,7 +45,7 @@ li a {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10%;
+    height: 7%;
     text-align: center;
     z-index: 2 !important;
 }
