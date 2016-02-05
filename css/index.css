@@ -25,6 +25,12 @@ li a {
     padding: 14px 20px;
 }
 
+a:focus {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
 
 .navlist a:hover {
     color: white;
