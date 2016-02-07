@@ -25,6 +25,14 @@ li a {
     padding: 14px 20px;
 }
 
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rbg (51, 51, 51) !important;
+}
 
 .navlist a:hover {
     color: white;
@@ -32,8 +40,8 @@ li a {
 }
 
 .navlist a:visited {
-    text-decoration: none !important;
-    color: white !important;
+    text-decoration: none;
+    color: white;
 }
 
 .navlink {
@@ -76,11 +84,18 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.bodyH3 {
+    font-size: 20px;
+}
+
+
+
 /*for h2 */
 em {
     font-size: 30px !important;
     font-family: 'Cabin Condensed', sans-serif !important;
 }
+
 
 .emailHeader {
     font-size: 20px !important;
@@ -88,7 +103,7 @@ em {
 
 .bodyPara {
     margin-left: 5% !important;
-    margin-right: 2% !important;
+    margin-right: 5% !important;
     line-height: 1.8 !important;
 }
 
@@ -97,6 +112,7 @@ em {
     margin-bottom: 3% !important;
     display: block;
     margin: auto;
+     
 }
 
 .aside-para {
@@ -113,15 +129,15 @@ footer {
 }
 
 .gitLogo {
-    width: 120px !important;
-    height: 40px !important;
-    display: inline-block !important;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
 }
 
 .linkedinBtn {
-    height: 33px !important;
-    width: 120px !important;
-    display: inline-block !important;
+    height: 33px;
+    width: 120px;
+    display: inline-block;
 }
 
 .socialIcons {
