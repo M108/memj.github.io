@@ -1,4 +1,4 @@
-/*Edit visited links in nav bar to not change color */
+
 /*Add drop down to portfolio for works and testimonials also, skills*/
 
 body, html {
@@ -20,6 +20,14 @@ html {
     font-size: 20px;
     
 }
+
+.dropdown-menu {
+    background-color: gainsboro;
+    text-align: center;
+    color: black !important;
+}
+
+
 
 li a {
     padding: 14px 20px;
