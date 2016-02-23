@@ -21,14 +21,6 @@ html {
     
 }
 
-.dropdown-menu {
-    background-color: gainsboro;
-    text-align: center;
-    color: black !important;
-}
-
-
-
 li a {
     padding: 14px 20px;
 }
@@ -128,12 +120,10 @@ em {
     margin-left: 10%;
 }
 
-.col-md-4 {
+.sideBar .col-md-4 {
     background-color: gainsboro;
-}
-
-footer {
-    margin-top: 3%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .gitLogo {
@@ -152,4 +142,83 @@ footer {
     display: block;
     margin: auto;
     width: 75%;
+}
+
+.skillsSection {
+    margin-top: 0px;
+    background-image:
+     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),    
+    url(/img/bg1.jpg);
+}
+
+.skillsSection .row {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+
+.skillsSection h1 {
+    color: white;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+    padding-top: 10px;
+}
+
+.skillsSection h2 {
+    font-family: 'Aller_Rg';
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: "Aller_Rg";
+    src: url("fonts/Aller_Rg.ttf")
+}
+
+.skillList {
+    list-style-type: none;
+}
+
+.skill-level {
+    background-color: #227c74;
+    border-radius: 4px;
+    color: #fff;
+    padding: 1px 8px;
+    font-size: .75em;
+    position: absolute;
+    margin: 1px 10px;
+    vertical-align:baseline;
+    max-height: 35px;
+}
+
+.skill {
+    margin-bottom: 15px;
+    font-size: 1.15em;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+    
+}
+
+.move-lower {
+    padding-top: 7px;
+}
+
+.development ul {
+    text-align: center;
+    padding-right: 50px;
+}
+
+.marketing ul {
+    text-align: center;
+    padding-right: 50px;
+} 
+
+.other ul {
+    text-align: center;
+    padding-right: 50px;
 }
