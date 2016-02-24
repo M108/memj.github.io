@@ -145,6 +145,7 @@ em {
 }
 
 .skillsSection {
+    height: 825px;
     margin-top: 0px;
     background-image:
      linear-gradient(
@@ -221,4 +222,15 @@ em {
 .other ul {
     text-align: center;
     padding-right: 50px;
+}
+
+.portfolioSection {
+    height: 825px;
+    background-image:
+     linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),     
+    url(/img/bg2.jpg);
+    margin-top: 0px;
 }
