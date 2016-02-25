@@ -230,7 +230,7 @@ em {
 }
 
 .portfolioSection {
-    height: 825px;
+    min-height: 825px;
     padding-top: 50px;
     background-image:
      linear-gradient(
@@ -238,13 +238,29 @@ em {
       rgba(0, 0, 0, 0.2)
     ),     
     url(/img/bg2.jpg);
+    background-repeat: no-repeat;
 }
 
 .portfolioSection h1 {
     margin-top: -40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .constructionImage {
-    max-width: 250px;
-    max-height: 250px;
+    width: 250px;
+    height: 250px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .constructionImage {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
 }
