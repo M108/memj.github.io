@@ -1,0 +1,210 @@
+ul {
+    list-style-type: none;
+}
+
+.topSection li {
+    display: inline; 
+    font-family:  arial,sans-serif;
+    margin-left: 10px;
+}
+
+.topSection {
+    margin-top: 10px;
+}
+
+nav {
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    opacity: .99;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:focus {
+    outline: 0;
+}
+.tsText li {
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    color: aqua;
+}
+
+#name {
+    opacity: .55;
+    font-size: 13px;
+}
+
+#gmail, #images {
+    opacity: .85;
+    font-size: 13px;
+}
+
+#jCircle {
+    border-radius: 50%;
+}
+
+.GoogleSprite {
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+}
+
+#Square {
+    background-position: -132px -38px;
+    opacity: .55;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: black;
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+}
+
+.jcirc {
+    cursor: default;
+}
+/*
+Add to jCirlce http://www.w3schools.com/bootstrap/bootstrap_popover.asp
+*/
+
+.bell {
+    background-position: -194px -21px;
+    background-color: rgba(0,0,0,.55);
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.bell-background {
+    color: #000;
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    outline: none;   
+}
+
+.mainContent img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+}
+
+.text-input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    height: 38px;
+    width: 584px;
+}
+
+.googlebtn {
+    display: inline-block;
+    background-image:linear-gradient(top, #F5F5F5, #F1F1F1);
+    background-color:   #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 4px;
+    margin-left: 4px;
+    min-width: 54px;
+    padding: 0px 16px;
+    text-align: center;
+}
+
+.search-buttons {
+    text-align: center;
+}
+
+.googleLogo {
+    margin-top: 109px;
+}
+
+.googlebtn {
+    height: 36px;
+    line-height: 27px;
+}
+
+.footer li {
+    display: inline;
+    color: #666;
+}
+
+.footer {
+    font-size: small;
+    background: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    line-height: 40px;
+    min-width: 980px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.right {
+    margin-right: 30px;
+    float: right;
+    white-space: nowrap;
+    
+}
+
+.left {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.ft-txt {
+    padding-left: 27px;
+    margin: 0 !important;
+    
+}
+
+.footer a {
+    color: black;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+.footer a:visited {
+    color: black;
+}
+
+.footer a:focus {
+    outline: 0;
+}
