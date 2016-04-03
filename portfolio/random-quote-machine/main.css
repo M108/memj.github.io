@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    background-image: url(img/graffiti-752337.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.main {
+    margin: 5em auto;
+    max-width: 550px;
+}
+
+h1 {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+#quote-box {
+    max-width: 550px;
+    height: 100px; 
+    padding: 10px;
+    border-radius: 1em;
+    background-color:aliceblue;
+}
+
+#credit {
+    text-align: right;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#quote {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#credit {
+    font-style: italic;
+}
+
+button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #051b29);
+  background-image: -moz-linear-gradient(top, #3498db, #051b29);
+  background-image: -ms-linear-gradient(top, #3498db, #051b29);
+  background-image: -o-linear-gradient(top, #3498db, #051b29);
+  background-image: linear-gradient(to bottom, #3498db, #051b29);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 3px 7px 3px 7px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  outline: none;
+}
+
+#twitter {
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px 7px 3px 7px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+}
+
+.center {
+    text-align: center;
+}
