@@ -143,6 +143,21 @@ h2 em {
     width: 120px;
 }
 
+.academy-badge {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.hubspot-mktg {
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 40px;
+}
+
 #skills-sec {
     padding-top: 50px;
     padding-bottom: 50px;
