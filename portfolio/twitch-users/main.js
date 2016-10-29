@@ -16,7 +16,7 @@ $(document).ready(function () {
     // get every channel name to push into the findChannel function
   }
 });
-
+//Add client ID for this to work again. http://forum.freecodecamp.com/t/problem-with-client-id-in-twitchtv-project/37361/5
 function findChannel(channel) {
   $.getJSON('https://api.twitch.tv/kraken/streams/' + channel + '?callback=?', function(data) {
        var status;
